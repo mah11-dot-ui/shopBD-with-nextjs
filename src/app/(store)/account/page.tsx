@@ -88,7 +88,7 @@ export default function AccountPage() {
             <Typography variant="h5" fontWeight={700}>{user.displayName || "User"}</Typography>
             <Typography variant="body2" color="text.secondary">{user.email}</Typography>
             {isAdmin && (
-              <Typography variant="caption" sx={{ bgcolor: "violet", color: "#7c3aed", bgcolor: "#f5f3ff", px: 1, py: 0.3, borderRadius: 1, fontWeight: 700, display: "inline-block", mt: 0.5 }}>
+              <Typography variant="caption" sx={{ bgcolor: "#f5f3ff", color: "#7c3aed", px: 1, py: 0.3, borderRadius: 1, fontWeight: 700, display: "inline-block", mt: 0.5 }}>
                 Admin
               </Typography>
             )}
