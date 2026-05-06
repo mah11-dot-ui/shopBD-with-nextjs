@@ -1,5 +1,8 @@
 "use client";
 
+// Force dynamic rendering to avoid Firebase initialization during build
+export const dynamic = 'force-dynamic';
+
 const orders = [
   { id: "ORD-001", date: "2026-05-01", items: 3, total: 74997, status: "Delivered", products: ["Sony WH-1000XM5", "iPhone 15 Pro Max", "Nike Air Max"] },
   { id: "ORD-002", date: "2026-05-02", items: 1, total: 24999, status: "Shipped", products: ["Sony WH-1000XM5"] },

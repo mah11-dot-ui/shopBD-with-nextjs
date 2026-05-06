@@ -1,3 +1,6 @@
+// Force dynamic rendering to avoid Firebase initialization during build
+export const dynamic = 'force-dynamic';
+
 import { Suspense } from "react";
 import ShopClient from "./ShopClient";
 

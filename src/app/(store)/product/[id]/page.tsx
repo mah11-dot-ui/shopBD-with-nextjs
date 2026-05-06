@@ -1,3 +1,6 @@
+// Force dynamic rendering to avoid Firebase initialization during build
+export const dynamic = 'force-dynamic';
+
 import { products } from "@/data/products";
 import { notFound } from "next/navigation";
 import ProductDetailClient from "./ProductDetailClient";
